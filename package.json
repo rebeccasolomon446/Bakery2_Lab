@@ -1,5 +1,5 @@
 {
-  "name": "bakery",
+  "name": "c",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -34,5 +35,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccasolomon446/Bakery2_Lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebeccasolomon446/Bakery2_Lab/issues"
+  },
+  "homepage": "https://github.com/rebeccasolomon446/Bakery2_Lab#readme"
 }

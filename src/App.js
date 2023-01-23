@@ -1,11 +1,12 @@
 import NavBar from "./NavBar";
 import Title from "./Title";
-import RecipeList from "./RecipeList";
+// import RecipeList from "./RecipeList";
 import Search from "./Search";
 import CakeForm from "./CakeForm";
+import Cake from "./Cake";
 import {useState} from "react";
 
-function App() {
+ function App() {
 
   const [cakes, setCakes] = useState([
       {
@@ -42,7 +43,7 @@ function App() {
         <Title />
       </header>
       <main>
-        <RecipeList cakes={cakes} />
+        <Cake cakes={cakes} />
         <Search />
         <CakeForm addNewCake={addNewCake} />
       </main>
